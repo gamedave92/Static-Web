@@ -42,6 +42,21 @@ img {
   border-width: 2px;
 }
 
+a {
+  text-align: center;
+  display: block;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  display: inline-block;
+}
+
 ul.joblist {
   text-align: center;
   list-style: none;
