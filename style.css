@@ -1,5 +1,13 @@
-h1 {
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
   text-align: center;
+  text-shadow: rgba(0, 0, 255, 1) -1px -2px 0.5em;
 }
 
 .background_image {
@@ -25,7 +33,16 @@ div.box {
   text-align: center;
 }
 
+table {
+  margin: 0 auto;
+}
+
 img {
   border-style: solid;
   border-width: 2px;
+}
+
+ul.joblist {
+  text-align: center;
+  list-style: none;
 }
